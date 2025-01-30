@@ -57,8 +57,8 @@ public class HeapSort {
     }
 
     // Main method to test heap sort
-    public static void main(String args[]) {
-        int arr[] = {12, 11, 13, 5, 6, 7};
+    public static void main(String[] args) {
+        int[] arr = {12, 11, 13, 5, 6, 7};
         HeapSort hs = new HeapSort();
         System.out.println("Original array:");
         printArray(arr);
